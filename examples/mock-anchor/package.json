@@ -6,7 +6,7 @@
   "type": "module",
   "main": "./src/server.ts",
   "scripts": {
-    "start": "tsx src/server.ts",
+    "start": "node init && tsx src/server.ts",
     "test": "vitest run --config vitest.config.ts",
     "typecheck": "tsc --noEmit"
   },
